@@ -12,7 +12,17 @@
   "author": "Peter Lind <peter.e.lind@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "eslint": "^4.14.0",
     "ical.js": "^1.2.2",
-    "moment": "^2.20.1"
-  }
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fake51/plantoeat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fake51/plantoeat/issues"
+  },
+  "homepage": "https://github.com/Fake51/plantoeat#readme"
 }
