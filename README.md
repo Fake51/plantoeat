@@ -1,4 +1,4 @@
-# PlanToEat Caledar Fetch
+# PlanToEat Calendar Fetch
 
 Package to streamline fetching calendar from plantoeat.com into simple objects
 
@@ -10,21 +10,15 @@ Install using npm should be easiest - otherwise just clone from git
 npm i plantoeat
 ```
 
-Use
-
-```
-until finished
-```
-
 To use it:
 
 ```
-const planToEat = require('plantoeat');
-allEvents = PlanToEat.fetchAll(<my id from plantoeat>);
-upcomingEvents = PlanToEat.fetchUpcoming(<my id from plantoeat>);
-recipesOnly = PlanToEat.fetchRecipes(<my id from plantoeat>);
-ingredientsOnly = PlanToEat.fetchIngredients(<my id from plantoeat>);
-notesOnly = PlanToEat.fetchNotes(<my id from plantoeat>);
+const planToEat = require('plantoeat'),
+    allEvents = planToEat.fetchAll(<my id from plantoeat>),
+    upcomingEvents = planToEat.fetchUpcoming(<my id from plantoeat>),
+    recipesOnly = planToEat.fetchRecipes(<my id from plantoeat>),
+    ingredientsOnly = planToEat.fetchIngredients(<my id from plantoeat>),
+    notesOnly = planToEat.fetchNotes(<my id from plantoeat>);
 ```
 
 ## Contributing
